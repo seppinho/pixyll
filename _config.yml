@@ -3,7 +3,7 @@ title:       Yet Another Blog
 email:       sebastian.schoenherr@i-med.ac.at
 author:      Sebastian Schönherr
 description: "my outsourced memory"
-baseurl:     "http://seppinho.github.io/"
+baseurl:     "http://seppinho.github.io"
 url:         ""
 
 # Google analytics
