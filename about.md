@@ -6,9 +6,10 @@ published: true
 ---
 
 Hi,
-I'm a researcher at the [Division of Genetic Epidemiology](http://genepi.i-med.ac.at), [Medical University of Innsbruck](http://www.i-med.ac.at) and part of a **computational genetic lab**. 
+I'm a researcher (PhD in Computer Science) at the [Division of Genetic Epidemiology](http://genepi.i-med.ac.at), [Medical University of Innsbruck](http://www.i-med.ac.at) and part of a small **computational genetic lab**.
 
-We mainly focus on software development and try to increase the [Hadoop](http://hadoop.apache.org/) usage in Genetics. Check out my [Scholar profile](http://scholar.google.at/citations?user=xx6B8OUAAAAJ&hl=de) for publications. 
+We mainly focus on methods and software development and try to increase the [Hadoop](http://hadoop.apache.org/) usage in Genetics. Check out my [Scholar profile](http://scholar.google.at/citations?user=xx6B8OUAAAAJ&hl=de) for publications.
+
 
 ## Current projects
 - [Cloudgene](http://cloudgene.uibk.ac.at) - A workflow system for Hadoop.
@@ -25,7 +26,7 @@ We mainly focus on software development and try to increase the [Hadoop](http://
 
 
 ## Computational genetic lab
+Check out the website of my colleagues.
 - [Lukas Forer](http://www.forer.it)
 - [Hansi Weißensteiner](http://haplogrep.uibk.ac.at/blog)
 - Clemens Banas (Master Student)
-
