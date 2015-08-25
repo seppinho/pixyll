@@ -1,13 +1,9 @@
 ---
 layout: page
-title: Publications & Projects
+title: Projects
 permalink: /projects/
 published: true
 ---
-
-## Published papers
-- Check out my [Scholar profile](http://scholar.google.at/citations?user=xx6B8OUAAAAJ&hl=de).
-
 
 ## Current projects
 - [Cloudgene](http://cloudgene.uibk.ac.at) - A workflow system for Hadoop.
