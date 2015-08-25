@@ -4,7 +4,8 @@ title: Projects
 permalink: /projects/
 published: true
 ---
-These are the main projects, I'm currently workin on:
+These are the main projects I'm currently working on:
+
 - [Cloudgene](http://cloudgene.uibk.ac.at) - A workflow system for Hadoop.
 
 - [Michigan Imputation Server](https://imputationserver.sph.umich.edu/) - Imputation Service based on [minimac3](http://genome.sph.umich.edu/wiki/Minimac3) and Cloudgene. A cooperation with the [Center of Statistical Genetics](http://csg.sph.umich.edu/abecasis/), University of Michigan.
