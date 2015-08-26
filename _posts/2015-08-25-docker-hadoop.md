@@ -33,4 +33,4 @@ docker run -i -t -p 50030:50030  hadoop-image
 sh /usr/bin/execute-wordcount.sh
 {% endhighlight %}
 
-In the next blog post, I'll show how our Hadoop platform [Cloudgene})(http://cloudgene.uibk.ac.at) uses such an image for an easy installation and execution process.
+In the next blog post, I'll show how our Hadoop platform [Cloudgene](http://cloudgene.uibk.ac.at) uses such an image for an easy installation and execution process.
