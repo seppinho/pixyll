@@ -15,8 +15,8 @@ sh /usr/bin/execute-wordcount.sh
 {% endhighlight %}
 
 ## Step by step tutorial
-- Start by pulling a fresh Docker image and run a new container for a quick test. A container is basically a running instance of an image.
-{% highlight bash %}
+- Start by pulling a fresh Docker Ubuntu image and run a new container for a quick test. A container is basically a running instance of an image.
+{% highlight sh %}
 docker pull ubuntu:14.04
 docker run -i -t ubuntu:14.04
 {% endhighlight %}
@@ -25,13 +25,13 @@ docker run -i -t ubuntu:14.04
 {% highlight bash %}
 mkdir new-docker-image
 mkdir new-docker-image/conf
-# conf dir is only needed when you are using my Dockerfile
+# copy files as mentioned above
 cd new-docker-image
 touch Dockerfile
 # edit Dockerfile
 {% endhighlight %}
 
-- To build a new image, execute the following command where the Dockerfile is located. Every time your Dockerfile changes, you have to re-run the build command.
+- After your Dockerfile is ready you can now build a new imag. Just execute the following command where the Dockerfile is located. Every time your Dockerfile has been changed, re-run the `build` command.
 {% highlight bash %}
 docker build --no-cache=false -t hadoop-image .
 docker run -i -t -p 50030:50030  hadoop-image
