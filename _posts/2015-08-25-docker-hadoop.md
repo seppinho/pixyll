@@ -6,14 +6,16 @@ categories: docker hadoop
 ---
 There are many ways how [Docker](https://www.docker.com/) can be used. In this blog post I'll summarize the steps I did to create a running Hadoop Docker image for the Cloudera Version (CDH5) of Hadoop MapReduce MRv1 (the "old" MapReduce) and MRv2 (the "new" MapReduce aka YARN).  Before we start, please check if Docker is [installed](https://docs.docker.com/installation/) on your local OS.
 
-## Ready-to-use image for MapReduce v1 and MapReduce YARN:
-- Before we start, you can of course easily use one of my previously build Hadoop Docker image, execute Hadoop MapReduce jobs and skip the remaining steps. 
+## Ready-to-use image for MapReduce v1 and MapReduce v2:
+To keep it simple, you can of course use one of my previously build Hadoop Docker images, execute Hadoop MapReduce jobs and skip the remaining steps. 
+
 ### MapReduce v1 
 {% highlight bash %}
 docker pull seppinho/cdh5-hadoop-mrv1:latest
 docker run -it -p 50030:50030 seppinho/cdh5-hadoop-mrv1:latest
 sh /usr/bin/execute-wordcount.sh
 {% endhighlight %}
+
 ### MapReduce v2 - YARN Architecture
 {% highlight bash %}
 docker pull seppinho/cdh5-hadoop-mrv2:latest
@@ -22,7 +24,7 @@ sh /usr/bin/execute-wordcount.sh
 {% endhighlight %}
 
 ## Step by step tutorial
-- If you want to start from scratch, we need a basic OS image we can work with. For that, pull a fresh Docker Ubuntu image (14.04) and run it. Ubuntu is in my opinion the best choice to work with Cloudera (especially when using Cloudera Manager, but  this should be part of a future blog post). The `run` command starts a new container which is basically a running instance of the Ubuntu image. You are now connected with the container running Ubuntu 14.04. 
+If you want to start from scratch, we need a basic OS image we can work with. For that, `pull` a fresh Docker Ubuntu image (14.04) and `run` it. The `run` command starts a new container which is a running instance of the Ubuntu image. 
 {% highlight bash %}
 docker pull ubuntu:14.04
 docker run -i -t ubuntu:14.04
