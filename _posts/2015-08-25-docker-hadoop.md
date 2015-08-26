@@ -46,7 +46,7 @@ docker build --no-cache=false -t hadoop-image .
 docker run -i -t -p 50030:50030  hadoop-image
 {% endhighlight %}
 
-You should now be able to connect to http://localhost:50030 from your local OS and execute a Mapreduce job on the command line. 
+You should now be able to connect to http://localhost:50030 from your local OS and execute a MapReduce job on the command line. 
 {% highlight bash %}
 sh /usr/bin/execute-wordcount.sh
 {% endhighlight %}
