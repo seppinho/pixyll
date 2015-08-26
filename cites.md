@@ -11,7 +11,7 @@ Check out my [Google Scholar profile](https://scholar.google.at/citations?user=x
 
 | Talk Title        | Place           | Comment  |
 | ------------- |:-------------:| -----:|
-| mtDNA-Server: Highly distributed analysis pipeline for mtDNA next generation sequencing   | 5th Workshop of Genetic Epidemiology, Bad Aibling (GER) | - |
+| mtDNA-Server: Highly distributed analysis pipeline for mtDNA next generation sequencing   | 5th Workshop of Genetic Epidemiology, Bad Aibling (GER) | [Link](http://seppinho.github.io/uploads/Scientific_Program_BadAibling.pdf) |
 | Cloudgene & Michigan Imputation Server    | Talk at the Bioinformatics Methods in Genomics Workshop, Zagreb (CRO)      |   [Link](https://wiki.galaxyproject.org/News/WorkshopZagreb201503) |
 | Bringing Hadoop into Bioinformatics with Cloudgene and CloudMan | BOSC 2015, Dublin (IRE)     |   [Link](http://www.open-bio.org/wiki/BOSC_2015) |
 | Cloudgene in a nutshell | University of Michigan, Center of Statistical Genetics, Ann Arbor (USA)     |  [Link](http://csg.sph.umich.edu/abecasis) |
