@@ -1,19 +1,19 @@
 # Site settings
-title:       Yet Another Blog
+title:       Seb's Blog
 email:       sebastian.schoenherr@i-med.ac.at
 author:      Sebastian Schönherr
 description: "my outsourced memory"
 baseurl:     "http://seppinho.github.io"
-url:         ""
+url:         "http://seppinho.github.io"
 
 # Google analytics
 google_analytics: UA-59813715-1
 
 # Optional features
 animated:           false
-show_related_posts: false
-show_post_footers:  false
-show_social_icons:  false
+show_related_posts: true
+show_post_footers:  true
+show_social_icons:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
