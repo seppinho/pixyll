@@ -5,9 +5,9 @@ permalink: /cites/
 published: true
 ---
 
-Check out my [Google Scholar profile](https://scholar.google.at/citations?user=xx6B8OUAAAAJ&hl=de) for an accurate overview.
+Check out my [Google Scholar profile](https://scholar.google.at/citations?user=xx6B8OUAAAAJ&hl=de) for an accurate overview of my published journal papers.
 
-## Some recent talks
+## Talks
 
 | Talk Title        | Place           | Comment  |
 | ------------- |:-------------:| -----:|
