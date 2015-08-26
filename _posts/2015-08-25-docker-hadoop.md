@@ -6,13 +6,22 @@ categories: docker hadoop
 ---
 There are many ways how Docker can be used. In this blog post I'll summarize the steps I did to create a running Docker image for the Cloudera Version (CDH5) of Hadoop in pseudo-distributed mode (All Hadoop services are running on the same node). This tutorial requires that Docker has been installed in advance.
 
+## Ready-to-use image
+- Before we start, you can of course easily use my Docker image, run Hadoop MapReduce jobs and skip the rest of the steps.  
+{% highlight bash %}
+docker pull seppinho/cdh5-hadoop-mrv1:latest
+docker run -it -p 50030:50030 seppinho/cdh5-hadoop-mrv1:latest
+sh /usr/bin/execute-wordcount.sh
+{% endhighlight %}
+
+## Step by step tutorial
 - Start by pulling a fresh Docker image and run a new container for a quick test. A container is basically a running instance of an image.
 {% highlight bash %}
 docker pull ubuntu:14.04
 docker run -i -t ubuntu:14.04
 {% endhighlight %}
 
-- Now, back on your local OS (type 'exit' to close the container from before) create a new folder including an empty Dockerfile. The Dockerfile includes all commands which should be executed when creating a new image. If you want to use my Dockerfile you also have to copy the conf directory which can be found here.
+- Now, back on your local OS (type 'exit' to close the container from before) create a new folder including an empty Dockerfile. The Dockerfile includes all commands which should be executed when creating a new image. If you want to use [my Dockerfile](https://github.com/seppinho/cdh5-hadoop-mrv1/blob/master/Dockerfile) you also have to copy the conf directory which can be found [here](https://github.com/seppinho/cdh5-hadoop-mrv1).
 {% highlight bash %}
 mkdir new-docker-image
 mkdir new-docker-image/conf
