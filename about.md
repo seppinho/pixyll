@@ -5,10 +5,10 @@ permalink: /about/
 published: true
 ---
 
-Hi,
-I'm a researcher (PhD in Computer Science) at the [Division of Genetic Epidemiology](http://genepi.i-med.ac.at), [Medical University of Innsbruck](http://www.i-med.ac.at) and member of a small **computational genetic lab**.
+My name is Sebastian Schoenherr and I'm a researcher (PhD in Computer Science) at the [Division of Genetic Epidemiology](http://genepi.i-med.ac.at), [Medical University of Innsbruck](http://www.i-med.ac.at) and member of a small **computational genetic lab**.
 
-The focus in our lab is on methods development and creating Software-As-A-Service (SaaS) approaches to achieve reproducible science. I'm a big fan of Hadoop and work with it since several years. Check out my [projects](http://seppinho.github.io/projects) for more details on that.
+The focus in our lab is on methods development and creating Software-As-A-Service (SaaS) approaches to achieve reproducible science. I'm a big fan of Hadoop and work with it since several years. 
+Check out my [projects](http://seppinho.github.io/projects) for more details on that.
 
 I'll try to [blog](http://seppinho.github.io/) on a regular basis just to remember things I did in the past.
 Please provide a [pull request](https://github.com/seppinho/seppinho.github.io) if something is inaccurate, not working or completely wrong.

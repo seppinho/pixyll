@@ -4,7 +4,7 @@ title:      Creating a Docker Image for Cloudera Hadoop MapReduce (CDH5)
 date:       2015-08-26 09:00:21
 categories: docker hadoop
 ---
-There are many ways how Docker can be used. In this blog post I'll summarize the steps I did to create a running Docker image for the Cloudera Version (CDH5) of Hadoop. This tutorial requires that Docker has been installed in advance.
+There are many ways how [Docker](https://www.docker.com/) can be used. In this blog post I'll summarize the steps I did to create a running Docker image for the Cloudera Version (CDH5) of Hadoop. This tutorial requires that Docker has been installed in advance on your local OS.
 
 ## Ready-to-use image
 - Before we start, you can of course easily use my Docker image, run Hadoop MapReduce jobs and skip the rest of the steps.  
