@@ -16,7 +16,7 @@ sh /usr/bin/execute-wordcount.sh
 
 ## Step by step tutorial
 - Start by pulling a fresh Docker Ubuntu image and run a new container for a quick test. A container is basically a running instance of an image.
-{% highlight sh %}
+{% highlight shell %}
 docker pull ubuntu:14.04
 docker run -i -t ubuntu:14.04
 {% endhighlight %}
