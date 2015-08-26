@@ -32,17 +32,15 @@ docker run -i -t ubuntu:14.04
 lsb_release -a
 {% endhighlight %}
 
-- Now, back on your local OS (type `exit` to close the Ubuntu container from before) create a new folder including an empty Dockerfile. The Dockerfile should include all necessary commands to build a new image. If you want to use e.g. my MRv1 [Dockerfile](https://github.com/seppinho/cdh5-hadoop-mrv1/blob/master/Dockerfile) you also have to copy the need to copy the  [conf](https://github.com/seppinho/cdh5-hadoop-mrv1) directory. 
+Now, back on your local OS (type `exit` to close the Ubuntu container from before) create a new folder including an empty file named `Dockerfile`. The Dockerfile should include all necessary commands to build the new image. Have also a look at my Github [repository](https://github.com/seppinho/cdh5-hadoop-mrv1). 
 {% highlight bash %}
 mkdir new-docker-image
-mkdir new-docker-image/conf
-# copy files as mentioned above
 cd new-docker-image
 touch Dockerfile
 edit Dockerfile
 {% endhighlight %}
 
-- When you are satisfied with your Dockerfile you are ready to build your first Docker image. Just execute the following commands in your local image directory. Keep in mind that every time your Dockerfile has been changed, a rerun of the `build` command is required. 
+- When you are satisfied with your Dockerfile you are ready to build your first Docker image. Just execute the following commands on your OS where the Dockerfile is located. Keep in mind that every time your Dockerfile has been changed, a rerun of the `build` command is required. 
 {% highlight bash %}
 docker build --no-cache=false -t hadoop-image .
 docker run -i -t -p 50030:50030  hadoop-image
