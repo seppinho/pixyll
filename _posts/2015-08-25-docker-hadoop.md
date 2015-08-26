@@ -24,7 +24,7 @@ sh /usr/bin/execute-wordcount.sh
 {% endhighlight %}
 
 ## Step by step tutorial
-If you want to start from scratch, we need a basic OS image we can work with. For that, `pull` a fresh Docker Ubuntu image (14.04) and `run` it. The `run` command starts a new container which is a running instance of the Ubuntu image. 
+If you want to start from scratch, we need a basic OS image we can work with. For that, `pull` a fresh Docker Ubuntu image (14.04) and `run` it. The run command starts a new container which is a running instance of the Ubuntu image. 
 {% highlight bash %}
 docker pull ubuntu:14.04
 docker run -i -t ubuntu:14.04
@@ -32,7 +32,7 @@ docker run -i -t ubuntu:14.04
 lsb_release -a
 {% endhighlight %}
 
-Now, back on your local OS (type `exit` to close the Ubuntu container from before) create a new folder including an empty file named `Dockerfile`. The Dockerfile should include all necessary commands to build the new image. Have also a look at my Github [repository](https://github.com/seppinho/cdh5-hadoop-mrv1). 
+Now, back on your local OS (type `exit` to close the Ubuntu container from before) create a new folder including an empty file named `Dockerfile`. The Dockerfile should include all necessary commands to build the new image. Have a look at my Github [repository](https://github.com/seppinho/cdh5-hadoop-mrv1) including a Dockerfile. 
 {% highlight bash %}
 mkdir new-docker-image
 cd new-docker-image
