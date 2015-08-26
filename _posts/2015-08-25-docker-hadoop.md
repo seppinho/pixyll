@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      Creating a Docker Image for Cloudera's distribution of Hadoop MapReduce
+title:      Creating a Docker Image for Hadoop MapReduce (CDH5)
 date:       2015-08-26 09:00:21
 categories: docker hadoop
 ---
-There are many ways how [Docker](https://www.docker.com/) can be used. In this blog post I'll summarize the steps I did to create a running Hadoop Docker image for the Cloudera Version (CDH5) of Hadoop MapReduce MRv1 (the "old" MapReduce) and MRv2 (the "new" MapReduce aka YARN).  Before we start, please check if Docker is [installed](https://docs.docker.com/installation/) on your OS.
+There are many ways how [Docker](https://www.docker.com/) can be used. In this blog post I'll summarize the steps I did to create a running Hadoop Docker image for the Cloudera Version (CDH5) of Hadoop MapReduce MRv1 (the "old" MapReduce) and MRv2 (the "new" MapReduce aka YARN).  Before we start, please check if Docker is [installed](https://docs.docker.com/installation/) on your local OS.
 
 ## Ready-to-use image for MapReduce v1 and MapReduce YARN:
 - Before we start, you can of course easily use one of my previously build Hadoop Docker image, execute Hadoop MapReduce jobs and skip the remaining steps. 
