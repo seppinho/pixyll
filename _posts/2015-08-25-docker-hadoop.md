@@ -39,7 +39,7 @@ docker run -i -t -p 50030:50030  hadoop-image
 {% endhighlight %}
 
 - You should now be able to connect to http://localhost:50030 from your local OS or execute a job on the command line like this:
-{% highlight shell %}
+{% highlight bash %}
 sh /usr/bin/execute-wordcount.sh
 {% endhighlight %}
 
