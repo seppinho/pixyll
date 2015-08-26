@@ -1,17 +1,10 @@
-# Pixyll
+# Seb's Website and Blog
 
-[pixyll.com](http://www.pixyll.com)
+Find my blog [here](http://seppinho.github.io/)
 
-![Pixyll screenshot](https://cloud.githubusercontent.com/assets/1424573/3847467/134aa236-1e66-11e4-8421-4e8c122118dc.png)
+All further information comes from directly from http://pixyll.com/. I really appreciate this simple and clear theme developed by [John Otander](http://johnotander.com). I forked his [repository] (https://github.com/johnotander/pixyll). 
 
-Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
-
-It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.
-
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
-
-中文版 <https://github.com/ee0703/pixyll-zh-cn>.
+The following information comes directly from the original github repository:
 
 ## Getting Started
 

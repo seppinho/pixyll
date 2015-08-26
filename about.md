@@ -10,6 +10,9 @@ I'm a researcher (PhD in Computer Science) at the [Division of Genetic Epidemiol
 
 The focus in our lab is on methods development and creating Software-As-A-Service (SaaS) approaches to achieve reproducible science. I'm a big fan of Hadoop and work with it since several years. Check out my [projects](http://seppinho.github.io/projects) for more details on that.
 
+I'll try to [blog](http://seppinho.github.io/) on a regular basis just to remember things I did in the past.
+Please provide a [pull request](https://github.com/seppinho/seppinho.github.io) if something is inaccurate, not working or completely wrong.
+
 ## Computational genetic lab
 - [Lukas Forer](http://www.forer.it)
 - [Hansi Weißensteiner](http://haplogrep.uibk.ac.at/blog)
