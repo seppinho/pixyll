@@ -11,6 +11,8 @@ Already some years  [ago](http://www.biomedcentral.com/1471-2105/13/200/abstract
 sudo -u cloudgene hadoop jar hadoop-examples.jar wordcount input output
 {% endhighlight %}
 
+### Introducing Cloudgene
+
 To abstract this command, we developed [Cloudgene](http://cloudgene.uibk.ac.at) consisting of (a) a workflow system and (b) a cloud orchestration platform. The idea behind Cloudgene is quite simple: If you are able to execute your Hadoop program on the command line, take some minutes and write a YAML configuration to connect your program with Cloudgene. With some basic text lines you are able transform your Hadoop command line program into a web-based service, present your collaborators a scalable best-practices workflow and provide reproducible science.
 A typical YAML configuration file looks like this. Please find the complete working Hadoop example [here](https://github.com/seppinho/mapreduce).
 {% highlight yaml %} 
@@ -38,9 +40,8 @@ mapred:
       download: true
 {% endhighlight %}  
 
-
-Cloudgene simplified our lives a lot in the last years, and two very recent services based on Cloudgene show the success of our platform: One of these services is the [mtDNA-Server] (http://mtdna-server.uibk.ac.at), a heteroplasmy and contamination pipeline for next generation sequencing data developed by my colleague [Hansi Weißenteiner](haplogrep.uibk.ac.at).
-The other service will  be introduced in another blog post. 
-For now, check out the mtDNA-Server web service to get a feeling what Cloudgene can do for you.
+### Cloudgene in Action
+Cloudgene simplified our lives a lot in the last years, and two very recent services based on Cloudgene show the success of our platform: The first service is the [mtDNA-Server](http://mtdna-server.uibk.ac.at), a heteroplasmy and contamination pipeline for next generation sequencing data developed by my colleague [Hansi Weißenteiner](haplogrep.uibk.ac.at). The other one is the quite popular [Michigan Imputation Server](http://imputationserver.sph.umich.edu) for genome imputation. 
+For now, check out one of the web services to get a feeling what Cloudgene can do for you. The services will be introduced in richer detail in near future
 
 In the next post, I'll show you how you can combine the ideas of my [first](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) blog post (Hadoop Docker Image) with Cloudgene resulting in a local Hadoop-As-A-Service approach.
