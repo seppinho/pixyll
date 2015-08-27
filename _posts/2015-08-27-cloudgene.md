@@ -6,7 +6,8 @@ categories: cloudgene hadoop
 description: This post introduces the graphical workflow platform Cloudgene for Hadoop and shows two popular services based on Cloudgene. 
 ---
 
-Already some years  [ago](http://www.biomedcentral.com/1471-2105/13/200/abstract), my colleague [Lukas Forer](http://www.forer.it) and I developed a platform to simplify the complete lifecycle of a Hadoop program. This includes steps like putting data into HDFS, execute a MapReduce job from the command line or export data back to the local file system. These steps are of course doable with some basic Unix knowledge. Nevertheless, for people who are used to work with graphical interfaces, this can be a major barrier to discover the beauty of Hadoop. For example, a typical MapReduce command looks like this:
+Already some years  [ago](http://www.biomedcentral.com/1471-2105/13/200/abstract), my colleague [Lukas Forer](http://www.forer.it) and I developed a platform to simplify the complete lifecycle of a Hadoop program. This includes steps like putting data into HDFS, execute a MapReduce job from the command line or export data back to the local file system. These steps are of course doable with some basic Unix knowledge. Nevertheless, for people who are used to work with graphical interfaces, this can be a major barrier to discover the beauty of Hadoop. 
+For example, a typical MapReduce command looks like this:
 
 {% highlight bash %} 
 sudo -u cloudgene hadoop jar hadoop-examples.jar wordcount input output
@@ -42,7 +43,8 @@ mapred:
 {% endhighlight %}  
 
 ### Cloudgene in Action
-Cloudgene simplified our lives a lot in the last years, and two very recent services based on Cloudgene show the success of our platform: The first service is the [mtDNA-Server](http://mtdna-server.uibk.ac.at), a heteroplasmy and contamination pipeline for next generation sequencing data developed by my colleague [Hansi Weißenteiner](haplogrep.uibk.ac.at). The other one is the quite popular [Michigan Imputation Server](http://imputationserver.sph.umich.edu) for genome imputation. 
-For now, check out one of the web services to get a feeling what Cloudgene can do for you. The services will be introduced in richer detail in near future
+Cloudgene simplified our lives a lot in the last years, and two very recent services based on Cloudgene show the success of our platform: The first service is the [mtDNA-Server](http://mtdna-server.uibk.ac.at), a heteroplasmy and contamination pipeline for next generation sequencing data developed by my colleague [Hansi Weißenteiner](http://haplogrep.uibk.ac.at). The other one is the quite popular [Michigan Imputation Server](https://imputationserver.sph.umich.edu) for genome imputation. 
 
-In the next post, I'll show you how you can combine the ideas of my [first](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) blog post (Hadoop Docker Image) with Cloudgene resulting in a local Hadoop-As-A-Service approach.
+For now, check out one of the web services to get a feeling what [Cloudgene](http://cloudgene.uibk.ac.at) can do for you. The services will be introduced in with more details in near future.
+
+In the next post, I'll show you how you to combine the ideas of my [first](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) blog post (Hadoop Docker Image) with Cloudgene resulting in a local Hadoop-As-A-Service approach.
