@@ -8,8 +8,7 @@ categories: cloudgene hadoop
 Already some years  [ago](http://www.biomedcentral.com/1471-2105/13/200/abstract), my colleague [Lukas Forer](http://www.forer.it) and I developed a platform to simplify the complete lifecycle of a Hadoop program. This includes steps like putting data into HDFS, execute a MapReduce job from the command line or export data back to the local file system. These steps are of course doable with some basic Unix knowledge. Nevertheless, for people who are used to work with graphical interfaces, this can be a major barrier to discover the beauty of Hadoop. For example, a typical MapReduce command looks like this:
 
 {% highlight bash %} 
-sudo -u cloudgene /usr/bin/hadoop jar /usr/lib/hadoop-0.20-mapreduce/hadoop-examples.jar 
-wordcount input output
+sudo -u cloudgene hadoop jar hadoop-examples.jar wordcount input output
 {% endhighlight %}
 
 To abstract this command, we developed [Cloudgene](http://cloudgene.uibk.ac.at) consisting of (a) a workflow system and (b) a cloud orchestration platform. The idea behind Cloudgene is quite simple: If you are able to execute your Hadoop program on the command line, take some minutes and write a YAML configuration to connect your program with Cloudgene. With some basic text lines you are able transform your Hadoop command line program into a web-based service, present your collaborators a scalable best-practices workflow and provide reproducible science.
