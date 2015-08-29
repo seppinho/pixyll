@@ -15,7 +15,7 @@ sudo -u cloudgene hadoop jar hadoop-examples.jar wordcount input output
 
 ### Introducing Cloudgene
 
-To abstract this command we developed [Cloudgene](http://cloudgene.uibk.ac.at), consisting of (a) a workflow system (including [WDL](http://cloudgene.uibk.ac.at/developer-guide/)) and (b) a cloud orchestration platform. The idea behind Cloudgene is quite simple: If you are able to execute your Hadoop program on the command line, take some minutes and write a YAML configuration to connect your program with Cloudgene. Doing so, you are able to transform your Hadoop command line program (or a set of programs) into a web-based service, present your collaborators a scalable best practices workflow and provide reproducible science.
+To abstract this command we developed [Cloudgene](http://cloudgene.uibk.ac.at), consisting of (a) a workflow system (including the workflow definition language [WDL](http://cloudgene.uibk.ac.at/developer-guide/)) and (b) a cloud orchestration platform. The idea behind Cloudgene is quite simple: If you are able to execute your Hadoop program on the command line, take some minutes and write a YAML configuration to connect your program with Cloudgene. Doing so, you are able to transform your Hadoop command line program (or a set of programs) into a web-based service, present your collaborators a scalable best practices workflow and provide reproducible science.
 The YAML configuration for the command above looks like this:
 {% highlight yaml %} 
 name: WordCount
@@ -47,4 +47,4 @@ Cloudgene simplified our lives a lot in the last years, and two very recent serv
 
 For now, check out one of the web services to get a feeling what [Cloudgene](http://cloudgene.uibk.ac.at) can do for you. The services will be introduced in with more details in near future.
 
-In the next post, I'll show you how you to combine the ideas of my [first](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) blog post with Cloudgene resulting in a Hadoop-As-A-Service approach.
+In the next post, I'll show you how you to combine the ideas of my [first](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) blog post with Cloudgene resulting in a Hadoop-As-A-Service approach for local usage.
