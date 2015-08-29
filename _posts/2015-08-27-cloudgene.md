@@ -3,11 +3,11 @@ layout:     post
 title:      Cloudgene, a Hadoop As-A-Service approach
 date:       2015-08-27 23:08:21
 categories: cloudgene hadoop
-summary: This post introduces the graphical Hadoop platform Cloudgene and shows how simple a Hadoop command line program can be provided as a web service to everyone. Two services in genetics based on Cloudgene are already available and are showing promising success.
+summary: This post introduces the graphical Hadoop platform Cloudgene and shows how simple a Hadoop command line program (or a workflow of several programs) can be provided as a web service to everyone. Two services in Genetics based on Cloudgene are already available and showing promising success.
 ---
 
-Already some years  [ago](http://www.biomedcentral.com/1471-2105/13/200/abstract), my colleague [Lukas Forer](http://www.forer.it) and I developed a platform to simplify the complete lifecycle of a Hadoop program. This includes steps like putting data into HDFS, execute a MapReduce job from the command line or export data back to the local file system. These steps are of course doable with some basic Unix knowledge. Nevertheless, for people who are used to work with graphical interfaces, this can be a major barrier to discover the beauty of Hadoop. 
-For example, a typical MapReduce command looks like this:
+Already some years  [ago](http://www.biomedcentral.com/1471-2105/13/200/abstract), my colleague [Lukas Forer](http://www.forer.it) and I developed a platform to simplify the complete lifecycle of a Hadoop program. This includes steps like putting data into HDFS, execute a MapReduce job from the command line or export data back to the local file system. These steps are of course doable with some basic Unix knowledge. Nevertheless, for people who are used to work with graphical interfaces or want to combine several tools (Hadoop, Spark, Unix, R) to a workflow, this can be a major barrier to discover the beauty of Hadoop. 
+The simpliest possible MapReduce command looks like this:
 
 {% highlight bash %} 
 sudo -u cloudgene hadoop jar hadoop-examples.jar wordcount input output
@@ -15,8 +15,8 @@ sudo -u cloudgene hadoop jar hadoop-examples.jar wordcount input output
 
 ### Introducing Cloudgene
 
-To abstract this command we developed [Cloudgene](http://cloudgene.uibk.ac.at), consisting of (a) a workflow system and (b) a cloud orchestration platform. The idea behind Cloudgene is quite simple: If you are able to execute your Hadoop program on the command line, take some minutes and write a YAML configuration to connect your program with Cloudgene. Doing so, you are able to transform your Hadoop command line program into a web-based service, present your collaborators a scalable best-practices workflow and provide reproducible science.
-A typical YAML configuration file looks like this: (Please find the complete working Hadoop example [here](https://github.com/seppinho/mapreduce)).
+To abstract this command we developed [Cloudgene](http://cloudgene.uibk.ac.at), consisting of (a) a workflow system (including [WDL](http://cloudgene.uibk.ac.at/developer-guide/)) and (b) a cloud orchestration platform. The idea behind Cloudgene is quite simple: If you are able to execute your Hadoop program on the command line, take some minutes and write a YAML configuration to connect your program with Cloudgene. Doing so, you are able to transform your Hadoop command line program (or a set of programs) into a web-based service, present your collaborators a scalable best practices workflow and provide reproducible science.
+The YAML configuration for the command above looks like this:
 {% highlight yaml %} 
 name: WordCount
 description:  MapReduce-WordCount 
