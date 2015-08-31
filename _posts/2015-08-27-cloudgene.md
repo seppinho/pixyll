@@ -3,7 +3,7 @@ layout:     post
 title:      Cloudgene, a Hadoop-As-A-Service approach
 date:       2015-08-27 23:08:21
 categories: cloudgene hadoop
-summary: This post introduces the graphical Hadoop platform [Cloudgene](http://cloudgene.uibk.ac.at) and shows how simple a Hadoop command line program (or a workflow of several programs) can be provided as a web service to everyone. Two services in Genetics based on Cloudgene are already available and showing promising success.
+summary: This post introduces the graphical Hadoop platform http://cloudgene.uibk.ac.at and shows how simple a Hadoop command line program (or a workflow of several programs) can be provided as a web service to everyone. Two services in Genetics based on Cloudgene are already available and showing promising success.
 ---
 
 Already some years  [ago](http://www.biomedcentral.com/1471-2105/13/200/abstract), my colleague [Lukas Forer](http://www.forer.it) and I developed a platform to simplify the complete lifecycle of a Hadoop program. This includes steps like putting data into HDFS, execute a MapReduce job from the command line or export data back to the local file system. These steps are of course doable with some basic Unix knowledge. Nevertheless, for people who are used to work with graphical interfaces or want to combine several tools (Hadoop, Spark, Unix, R) to a workflow, this can be a major barrier to discover the beauty of Hadoop. 
