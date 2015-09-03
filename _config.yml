@@ -1,5 +1,5 @@
 # Site settings
-title:       Seb's Blog
+title:       Sebs Blog
 email:       sebastian.schoenherr@i-med.ac.at
 author:      Sebastian Schönherr
 description: "my outsourced memory"
@@ -10,7 +10,7 @@ url:         "http://seppinho.github.io"
 google_analytics: UA-59813715-1
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: true
 show_post_footers:  true
 show_social_icons:  true
@@ -20,7 +20,7 @@ show_social_icons:  true
 disqus_shortname: seppinhoblog
 
 # Social icons
-github_username:
+github_username: seppinho
 bitbucket_username:
 stackoverflow_id:
 twitter_username: seppinho
