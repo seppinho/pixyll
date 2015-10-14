@@ -1,5 +1,5 @@
 # Site settings
-title:       Seb's Blog
+title:       Sebs Blog
 email:       sebastian.schoenherr@i-med.ac.at
 author:      Sebastian Schönherr
 description: "my outsourced memory"
@@ -17,10 +17,10 @@ show_social_icons:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: seppinhoblog
 
 # Social icons
-github_username:
+github_username: seppinho
 bitbucket_username:
 stackoverflow_id:
 twitter_username: seppinho
