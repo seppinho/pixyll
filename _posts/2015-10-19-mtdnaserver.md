@@ -8,6 +8,8 @@ categories: cloudgene docker hadoop bioinformatics
 Hadoop is pretty famous for analysing huge datasets in batch (MapReduce) or in-memory (Spark). 
 
 To abstract all the technical things (e.g. setting up a cluster, executing/managing Hadoop programs, HDFS Staging) from end users, [Lukas](http://www.forer.it) and I developed the Hadoop workflow system Cloudgene, introduced in [this blog entry](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). 
+
+## Cloudgene + Docker
 Even if the installation process of Cloudgene is quite doable, the prerequiste of having a running Hadoop Cluster is kind of a shortcoming. As a first step to solve this, we generated a [Hadoop Docker Image](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) to set up a CDH5 cluster in pseudo-distributed mode. This image can be combined with Clodugene as showed here:
 
 ## Connecting new apps to Cloudgene
@@ -16,7 +18,7 @@ Imagine you are the developer of a new Hadoop application to analyse some kind o
 - Your Hadoop (e.g. MapReduce/Spark) application is executable on the command line (e.g. hadoop jar wordcount.jar <in> <out>). You can also combine of several technologies (e.g. MapReduce, Spark, Unix Tool, R) to a Cloudgene workflow.  
 - You know the basics of the [Cloudgene Workflow Language](http://cloudgene.uibk.ac.at/developer-guide/) developed by [Lukas](www.forer.it) to connect your app to Cloudgene. A simple example (again the famous (and boring) Wordcount) has been introduced [in this post](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). 
 
-### Ready to deploy your application
+## Ready to deploy your application
 To deploy your application, simply pull the latest Docker Image of Cloudgene with all dependencies from Docker Hub.
 
 {% highlight bash %}
