@@ -2,7 +2,7 @@
 layout:     post
 title:      Hadoop Services for Everyone using Cloudgene and Docker
 date:       2015-10-19 16:58:21
-published: false
+published: true
 categories: cloudgene docker hadoop bioinformatics
 ---
 
