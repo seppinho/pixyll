@@ -16,6 +16,7 @@ Imagine you are the developer of a new Hadoop application to analyse some kind o
 
 ### Ready to deploy your application
 To deploy your application, simply pull the latest Docker Image of Cloudgene with all dependencies from Docker Hub.
+
 {% highlight bash %}
 docker pull seppinho/cloudgene-docker
 {% endhighlight %}
