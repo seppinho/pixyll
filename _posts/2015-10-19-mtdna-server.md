@@ -5,15 +5,15 @@ date:       2015-10-19 16:58:21
 published: false
 categories: cloudgene docker hadoop bioinformatics
 ---
-This posts explains how you can register Hadoop applications to Cloudgene to manage and execute workflows. Two previous posts explained how we developed a prebuild [Hadoop Docker Image](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) for Cloudera CDH5 and a Docker Image for our workflow system [Cloudgene](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). 
 
-### Docker + Cloudgene = Hadoop Services 4 Everyone!
-Genetics needs scalable services to manage and analyse the huge amount of data. For that, we think Hadoop is a perfect fit.  Nevertheless, a way is needed to abstract all the technical stuff from end users. For that reason, Lukas Forer and I developed [Cloudgene](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/), a system which allows us to combine different of our applications (apps) with Cloudgene and provide them as web services to everyone. Even if the installation process of Cloudgene is easy (Thanks to Restlet on server side), (http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) a Hadoop Cluster is something simplified our life a lot more!
-So the for beginners non trivial task is how can a application be combined with Cloudgene? The answer is quite simple, to combine a new Hadoop application with Cloudgene the two most important requirements are:
+Genetics needs scalable services to manage and analyse the huge amount of data. We think that Hadoop is a perfect fit for that.  To abstract all the technical stuff from end users, Lukas Forer and I developed [Cloudgene](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). This system allows us to combine a set of applications (apps) with Cloudgene and provide the workflows as web service to everyone. Even if the installation process of Cloudgene is quite doable, the prerequiste of having a runningHadoop Cluster is kind of a shortcoming. For that, we developed a [Hadoop Docker Image](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/).
+
+## Connecting new apps to Cloudgene
+So for end users, the most interesting question is how a application can be combined with Cloudgene. To do so, two things are important:
 - You are aware (or developed your own) Hadoop application (e.g. MapReduce, Spark). This application is executable on the command line (e.g. hadoop jar wordcount.jar <in> <out>). Also a combination of several apps (e.g. MapReduce, Spark, Unix Tool, R) to a workflow is possible.  
-- You know the basics of the Cloudgene Workflow Language developed by  [Lukas](www.forer.it) to connect your app to Cloudgene (also mentioned [here](https://github.com/pditommaso/awesome-pipeline)). A simple example (again Wordcount) has already been introduced [in the previous post](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). If you don't want to learn the YAML syntax but keen to integrate it into Cloudgene, please contact[us](http://seppinho.github.io/about/).
+- You know the basics of the Cloudgene Workflow Language developed by  [Lukas](www.forer.it) to connect your app to Cloudgene (also mentioned [here](https://github.com/pditommaso/awesome-pipeline)). A simple example (again the famous Wordcount) has been introduced [in this previous post](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). If you don't want to learn the YAML syntax but keen to integrate your app into Cloudgene, please contact [us](http://seppinho.github.io/about/).
 
-### Pull Cloudgene
+### Cloudgene + Docker = Hadoop Services 4 Everyone
 Cloudgene with all dependencies (e.g. Hadoop, R) is provided as an automated build from Docker Hub.
 {% highlight bash %}
 docker pull seppinho/cloudgene-docker
