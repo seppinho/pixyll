@@ -1,13 +1,11 @@
 ---
 layout:     post
 title:      Hadoop Services for Everyone
-date:       2015-10-19 16:58:21
+date:       2015-10-19 21:00:00
 categories: cloudgene docker hadoop bioinformatics
 ---
 
-Hadoop is pretty famous for analysing huge datasets in batch (MapReduce) or in-memory (Spark). 
-
-To abstract all the technical things (e.g. setting up a cluster, executing/managing Hadoop programs, HDFS Staging) from end users, [Lukas](http://www.forer.it) and I developed the Hadoop workflow system Cloudgene, introduced in [this blog entry](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). 
+Hadoop is pretty famous for analysing huge datasets in batch (MapReduce) or in-memory (Spark). To abstract all the technical things (e.g. setting up a cluster, executing/managing Hadoop programs, HDFS Staging) from end users, [Lukas](http://www.forer.it) and I developed the Hadoop workflow system Cloudgene, introduced in [this blog entry](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). 
 
 ## Cloudgene + Docker
 Even if the installation process of Cloudgene is quite doable, the prerequiste of having a running Hadoop Cluster is kind of a shortcoming. As a first step to solve this, we generated a [Hadoop Docker Image](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) to set up a CDH5 cluster in pseudo-distributed mode. This image can be combined with Clodugene as showed here:
@@ -18,17 +16,17 @@ Imagine you are the developer of a new Hadoop application to analyse some kind o
 - Your Hadoop (e.g. MapReduce/Spark) application is executable on the command line (e.g. hadoop jar wordcount.jar <in> <out>). You can also combine of several technologies (e.g. MapReduce, Spark, Unix Tool, R) to a Cloudgene workflow.  
 - You know the basics of the [Cloudgene Workflow Language](http://cloudgene.uibk.ac.at/developer-guide/) developed by [Lukas](www.forer.it) to connect your app to Cloudgene. A simple example (again the famous (and boring) Wordcount) has been introduced [in this post](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). 
 
-## Ready to deploy your application
+## Pull Cloudgene Image
 To deploy your application, simply pull the latest Docker Image of Cloudgene with all dependencies from Docker Hub.
 
 {% highlight bash %}
 docker pull seppinho/cloudgene-docker
 {% endhighlight %}
 
-### Application Registration
+### Register your app
 We already prepared an [app repository](https://github.com/seppinho/cloudgene-apps-docker) including two sample applications (Wordcount and mtDNA-Server). This feature allows us to register different repositories (each containing several apps) making each Cloudgene installation user-specific. Specify your own repository with the --repository command line option.
 
-### Start Cloudgene on Docker
+## Run Cloudgene Image
 Running this command will (a) configure Hadoop in pseudo-distributed mode, (b) install Cloudgene and all dependencies and (c) register the repository. When accessing the web interface (http://localhost:8082), applications can now be managed and run graphically. So time to simply share the link with your co-workers.
 
 {% highlight bash %}
@@ -36,7 +34,7 @@ sudo docker run --privileged -it -p 8082:8082 seppinho/cloudgene-docker \ --repo
 {% endhighlight %}
 
 
-### Cloudgene in Real Life
+## Cloudgene in Real Life
 Cloudgene is the underlying framework of the [Michigan Imputation Server](https://imputationserver.sph.umich.edu/) and is now in production since 1 1/2 years. We [imputed](http://genome.sph.umich.edu/wiki/Minimac3) over 1.4M Genomes and improved Cloudgene a lot to provide a stable service to everyone. 
 
 If you are interested to integrate your app into Cloudgene, please let [me](http://seppinho.github.io/about/) know.
