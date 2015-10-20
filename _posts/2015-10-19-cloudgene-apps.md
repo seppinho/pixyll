@@ -9,8 +9,7 @@ categories: cloudgene docker hadoop bioinformatics
 Hadoop is pretty famous for analysing huge datasets in batch (MapReduce) or in-memory (Spark). To abstract all the technical things (e.g. setting up a cluster, executing/managing Hadoop programs, HDFS Staging) from end users, [Lukas](http://www.forer.it) and I developed the Hadoop workflow system Cloudgene, introduced in [this blog entry](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/).
 
 ## Cloudgene + Docker
-Even if the installation process of Cloudgene is quite doable, the prerequiste of having a running Hadoop Cluster is kind of a shortcoming. As a first step to deal with this issue, we generated a [Hadoop Docker Image](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) to set up a Cloudera Hadoop (CDH5) cluster in pseudo-distributed mode. This image can be combined with Clodugene as showed here.
-
+Even if the installation process of Cloudgene is quite doable, the prerequiste of having a running Hadoop Cluster is kind of a shortcoming. To deal with this issue, we generated a [Hadoop Docker Image](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) to set up a Cloudera Hadoop (CDH5) cluster in pseudo-distributed mode. As seen in the picture, Cloudgene is automatically installed atop of Hadoop and new applications (apps) can be registered. The important message is that every random Hadoop program can be connected to Cloudgene!
 
 ![desk](http://seppinho.github.io/uploads/workflow.png)
 
