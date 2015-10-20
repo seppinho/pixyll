@@ -35,7 +35,8 @@ We already prepared an [app repository](https://github.com/seppinho/cloudgene-ap
 Running this command will (a) configure Hadoop in pseudo-distributed mode, (b) install Cloudgene and all dependencies and (c) register the repository. When accessing the web interface (`http://ip-address:8082`), applications can now be managed and run graphically. So now it's the time to simply share the link with your co-workers.
 
 {% highlight bash %}
-sudo docker run --privileged -it -p 8082:8082 seppinho/cloudgene-docker \ --repository https://github.com/seppinho/cloudgene-apps-docker
+sudo docker run --privileged -it -p 8082:8082 seppinho/cloudgene-docker 
+--repository https://github.com/seppinho/cloudgene-apps-docker
 {% endhighlight %}
 
 
