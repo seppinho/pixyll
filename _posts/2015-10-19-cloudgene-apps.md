@@ -3,7 +3,7 @@ layout:     post
 title:      Hadoop Services for Everyone
 date:       2015-10-19 21:00:00
 categories: cloudgene docker hadoop
-summary: This post shows how we combine the Hadoop Docker Image (CDH5) with our Hadoop workflow system Cloudgene. Due to Cloudgene's YAML interface, new applications can be registered to Cloudgene by everyone and provided as a service. 
+summary: This post shows how we combine the Hadoop Docker Image (CDH5) with our Hadoop workflow system Cloudgene. Due to Cloudgene's YAML interface, new applications can be registered to Cloudgene and provided as a service to everyone. 
 ---
 
 Hadoop is pretty famous for analysing huge datasets in batch (MapReduce) or in-memory (Spark). To abstract all the technical things (e.g. setting up a cluster, executing/managing Hadoop programs, HDFS Staging) from end users, [Lukas](http://www.forer.it) and I developed the Hadoop workflow system Cloudgene, introduced in [this blog entry](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/).
