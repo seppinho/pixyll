@@ -30,7 +30,7 @@ docker pull seppinho/cloudgene-docker
 We already prepared an [app repository](https://github.com/seppinho/cloudgene-apps-docker) including two sample applications ([Wordcount](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0) and [mtDNA-Server](http://mtdna-server.uibk.ac.at/start.html)). Cloudgene allows us to register different repositories (containing several apps) making each Cloudgene installation user-specific. Specify your own repository with the `--repository` command line option.
 
 ## Run your service
-Running this command will (a) configure Hadoop in pseudo-distributed mode, (b) install Cloudgene and all dependencies and (c) register the repository. When accessing the web interface (http://<ip-address>:8082), applications can now be managed and run graphically. So now it's the time to simply share the link with your co-workers.
+Running this command will (a) configure Hadoop in pseudo-distributed mode, (b) install Cloudgene and all dependencies and (c) register the repository. When accessing the web interface (`http://ip-address:8082`), applications can now be managed and run graphically. So now it's the time to simply share the link with your co-workers.
 
 {% highlight bash %}
 sudo docker run --privileged -it -p 8082:8082 seppinho/cloudgene-docker \ --repository https://github.com/seppinho/cloudgene-apps-docker
@@ -41,9 +41,3 @@ sudo docker run --privileged -it -p 8082:8082 seppinho/cloudgene-docker \ --repo
 Cloudgene is the underlying framework of the [Michigan Imputation Server](https://imputationserver.sph.umich.edu/) and is now in production since 1 1/2 years. We [imputed](http://genome.sph.umich.edu/wiki/Minimac3) over 1.4M Genomes and improved Cloudgene a lot to provide a stable service to the community.
 
 If you are interested to integrate your app into Cloudgene, please let [us](http://seppinho.github.io/about/) know.
-
--- 
-Sebastian Schoenherr, PhD
-Division of Genetic Epidemiology
-http://genepi.i-med.ac.at/people/seb/
-
