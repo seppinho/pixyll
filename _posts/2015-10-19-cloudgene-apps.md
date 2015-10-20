@@ -17,7 +17,7 @@ Even if the installation process of Cloudgene is quite doable, the prerequisite 
 Imagine you are the developer of a new Hadoop application to analyse some kind of (big) data. Since you're not interested in being the guy who applies your application to all datasets, you want to present your co-workers a "do-it-yourself" service. This is exactly the job of Cloudgene. To register your application within Cloudgene, two things are important:
 
 - Your Hadoop (e.g. MapReduce/Spark) application is executable on the command line (e.g. `hadoop jar wordcount.jar <in> <out>`). You can also combine apps written with different technologies (e.g. MapReduce, Spark, Unix Tool, R) to a powerful Cloudgene workflow.
-- You know the basics of the [Cloudgene Workflow Language](http://cloudgene.uibk.ac.at/developer-guide/) developed by [Lukas](www.forer.it) to connect your app to Cloudgene. A simple example (again the famous Wordcount) has been introduced [in this post](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/).
+- You know the basics of the [Cloudgene Workflow Language](http://cloudgene.uibk.ac.at/developer-guide/) developed by [Lukas](http://www.forer.it) to connect your app to Cloudgene. A simple example (again the famous Wordcount) has been introduced [in this post](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/).
 
 ## Pull Cloudgene Image
 To deploy your application, simply pull the latest Docker Image of Cloudgene with all dependencies from Docker Hub.
@@ -27,7 +27,7 @@ docker pull seppinho/cloudgene-docker
 {% endhighlight %}
 
 ### Register your app
-We already prepared an [app repository](https://github.com/seppinho/cloudgene-apps-docker) including two sample applications ([Wordcount](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0) and [mtDNA-Server](http://mtdna-server.uibk.ac.at/start.html)). This feature allows us to register different repositories (each containing several apps) making each Cloudgene installation user-specific. Specify your own repository with the `--repository` command line option.
+We already prepared an [app repository](https://github.com/seppinho/cloudgene-apps-docker) including two sample applications ([Wordcount](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0) and [mtDNA-Server](http://mtdna-server.uibk.ac.at/start.html)). Cloudgene allows us to register different repositories (containing several apps) making each Cloudgene installation user-specific. Specify your own repository with the `--repository` command line option.
 
 ## Run your service
 Running this command will (a) configure Hadoop in pseudo-distributed mode, (b) install Cloudgene and all dependencies and (c) register the repository. When accessing the web interface (http://<ip-address>:8082), applications can now be managed and run graphically. So now it's the time to simply share the link with your co-workers.
