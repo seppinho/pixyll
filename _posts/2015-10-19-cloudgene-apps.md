@@ -11,10 +11,8 @@ Hadoop is pretty famous for analysing huge datasets in batch (MapReduce) or in-m
 ## Cloudgene + Docker
 Even if the installation process of Cloudgene is quite doable, the prerequisite of having a running Hadoop Cluster is kind of a shortcoming. To overcome this, we generated a [Hadoop Docker Image](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) to set up a Cloudera Hadoop (CDH5) cluster in pseudo-distributed mode. With the help of this image we are now able to install Cloudgene atop of Hadoop and new applications (apps) can be registered. This means that every random Hadoop program can be connected to Cloudgene and benefit from its workflow capabilities.
 
-![desk](http://seppinho.github.io/uploads/workflow.png)
-
 <p align="center">
-  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+  <img src="http://seppinho.github.io/uploads/workflow.png" alt="Cloudgene on Docker"/>
 </p>
 
 ## Connecting new apps to Cloudgene
