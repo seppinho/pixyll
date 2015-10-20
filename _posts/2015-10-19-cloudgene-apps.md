@@ -11,7 +11,11 @@ Hadoop is pretty famous for analysing huge datasets in batch (MapReduce) or in-m
 ## Cloudgene + Docker
 Even if the installation process of Cloudgene is quite doable, the prerequisite of having a running Hadoop Cluster is kind of a shortcoming. To overcome this, we generated a [Hadoop Docker Image](http://seppinho.github.io/docker/hadoop/2015/08/26/docker-hadoop/) to set up a Cloudera Hadoop (CDH5) cluster in pseudo-distributed mode. With the help of this image we are now able to install Cloudgene atop of Hadoop and new applications (apps) can be registered. This means that every random Hadoop program can be connected to Cloudgene and benefit from its workflow capabilities.
 
-<div style="text-align:center"><img src =http://seppinho.github.io/uploads/workflow.png /></div>
+![desk](http://seppinho.github.io/uploads/workflow.png)
+
+<p align="center">
+  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 ## Connecting new apps to Cloudgene
 Imagine you are the developer of a new Hadoop application to analyse some kind of (big) data. Since you're not interested in being the guy who applies your application to all datasets, you want to present your co-workers a "do-it-yourself" service. This is exactly the job of Cloudgene. To register your application within Cloudgene, two things are important:
