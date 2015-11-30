@@ -19,6 +19,12 @@ show_social_icons:  true
 # (leave blank to disable Disqus)
 disqus_shortname: seppinhoblog
 
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments: 
+facebook_appid: 
+facebook_comments_number: 10
+
 # Social icons
 github_username: seppinho
 bitbucket_username:
@@ -54,5 +60,3 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
-gems:
-  - jekyll-sitemap

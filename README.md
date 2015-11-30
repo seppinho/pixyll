@@ -32,7 +32,7 @@ $ jekyll -v
 
 Fork the repo, and then clone it so you've got the code locally.
 
-### Modify the _config.yml
+### Modify the `_config.yml`
 
 The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
 for the Jekyll site. The defaults are:
@@ -110,17 +110,13 @@ A relevant Jekyll Github Issue: <https://github.com/jekyll/jekyll/issues/332>
 
 ### Contact Form
 
-If you'd like to keep the contact form, which uses <http://formspree.io>, you will need to update the email address.
-
-Currently, the `contact.html` has the following:
-
-```html
-<form action="http://formspree.io/johnotander@icloud.com" method="POST" class="form-stacked form-light">
-```
-
-Where it says `johnotander@icloud.com`, you will need to change that to the email that you wish to have the form data sent to. It will require you to fill the form out when you push it live for the first time so that you can confirm your email.
+The contact form uses <http://formspree.io>. It will require you to fill the form out and submit it once, before going live, to confirm your email.
 
 More setup instructions and advanced options can be found at [http://formspree.io](http://formspree.io/)
+
+### Disqus
+
+To configure Disqus, set up a [Disqus site](https://disqus.com/admin/create/) with the same name as your site. Then, in `_config.yml`, edit the `disqus_shortname` value to enable Disqus.
 
 ### Customizing the CSS
 
@@ -158,6 +154,14 @@ git pull upstream master
 
 There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
 
+## Thanks to the following
+
+* [BASSCSS](http://basscss.com)
+* [Jekyll](http://jekyllrb.com)
+* [Refills](http://refills.bourbon.io/)
+* [Solarized](http://ethanschoonover.com/solarized)
+* [Animate.css](http://daneden.github.io/animate.css/)
+
 ## Contributing
 
 1. Fork it
@@ -165,11 +169,3 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-## Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
-* [Animate.css](http://daneden.github.io/animate.css/)
