@@ -15,3 +15,5 @@ These are the main projects I'm currently working on:
 - [mtDNA-Server](http://mtdna-server.uibk.ac.at) - A NGS heteroplasmy and contamination pipeline based on Cloudgene. Including a parallelized version of BWA MEM.
 
 - [Cloudgene & CloudMan](https://wiki.galaxyproject.org/CloudMan) - Cloudgene integration into CloudMan. A cooperation with [Enis Afgan](http://jamestaylor.org/people/enis/), affiliated at Johns Hopkins University & Ruđer Bošković Institute.
+
+- [Askimed](http://www.askimed.com) - Electronic data collection for phenotypes. Used in the EU FP7 project [ncRNAPain](http://ec.europa.eu/research/health/medical-research/brain-research/projects/ncrnapain_en.html) and in the German Chronic Kidney Disease Study [GCKD](http://www.gckd.org).
