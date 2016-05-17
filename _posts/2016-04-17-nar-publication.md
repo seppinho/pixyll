@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      New Publication in Nucleic Acids Research: HaploGrep2
-date:       2016-04-17 09:27:21
+title:      NAR WebServer Issue Publication - HaploGrep2
+date:       2016-04-17 22:00:21
 categories: mtdna
 ---
 In 2011 we published HaploGrep, a way to assign haplogroups to mtDNA profiles. It is now the defacto standard for 
