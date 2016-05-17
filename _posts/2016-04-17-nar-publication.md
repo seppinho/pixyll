@@ -4,7 +4,6 @@ title:      New Publication in Nucleic Acids Research: HaploGrep2
 date:       2016-04-17 09:27:21
 categories: mtdna
 ---
-
 In 2011 we published HaploGrep, a way to assign haplogroups to mtDNA profiles. It is now the defacto standard for 
 haplogroup assignment with currently >2k users [each month](http://haplogrep.uibk.ac.at/blog/wp-content/uploads/2016/04/haplogrep_phylotree1.png).
 
