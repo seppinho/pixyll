@@ -18,4 +18,5 @@ Over the last years we (especially Hansi) improved the software and I'm happy to
 - Haplogroup discordance calculation between all 4 metrics
 - Providing a Restlet API and a command line version of HaploGrep
 
+### HaploGrep2 in Action
 Have fun with [HaploGrep2](http://haplogrep.uibk.ac.at) and check out the paper [here](http://nar.oxfordjournals.org/content/early/2016/04/15/nar.gkw233.full.pdf+html).
