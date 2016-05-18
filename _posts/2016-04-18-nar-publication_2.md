@@ -5,11 +5,11 @@ date:       2016-04-18 23:00:21
 categories: mtdna
 ---
 
-Providing Hadoop as a Service is the main goal of Cloudgene, as described in one of my previously [blog entries](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). 
+Providing Hadoop as a Service is the main goal of Cloudgene, as described in one of my previous [blog entries](http://seppinho.github.io/cloudgene/hadoop/2015/08/27/cloudgene/). 
 Since Cloudgene is only the platform, useful use cases need to be implemented and integrated in Cloudgene. 
 Here I want to introduce our newest service called **mtDNA-Server**, which have been published in the **NAR WebServer Issue 2016**.
 
-##mtDNA-Server 101
+## mtDNA-Server 101
 mtDNA-Server provides a free service for the analysis of human mitochondrial DNA data, currently focusing on reliable
 identification of heteroplasmy (>= 1%) and contamination.
 
