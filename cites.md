@@ -20,7 +20,7 @@ Sekula, P., Li, Y., Stanescu, H. C., Wuttke, M., Ekici, A. B., Bockenhauer, D., 
 
 **2015**
 
-Forer, L., Afgan, E., Weißensteiner, H., Davidovic, D., Specht, G., Kronenberg, F., & **Schönherr, S.** (2015). *[Cloudflow - A framework for MapReduce pipeline development in Biomedical Research](http://docs.mipro-proceedings.com/dcvis/DCVIS_01_3145.pdf)*. In P. Biljanovic, Z. Butkovic, K. Skala, B. Mikac, M. Cicin-Sain, V. Sruk, … A. Sokolic (Eds.), 38th International Convention on Information and Communication Technology, Electronics and Microelectronics, {MIPRO} 2015, Opatija, Croatia, May 25-29, 2015 (pp. 172–177). IEEE. http://doi.org/10.1109/MIPRO.2015.7160259
+Forer, L., Afgan, E., Weißensteiner, H., Davidovic, D., Specht, G., Kronenberg, F., & **Schönherr, S.** (2015). *[Cloudflow - A framework for MapReduce pipeline development in Biomedical Research](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7160259&tag=1)*. In P. Biljanovic, Z. Butkovic, K. Skala, B. Mikac, M. Cicin-Sain, V. Sruk, … A. Sokolic (Eds.), 38th International Convention on Information and Communication Technology, Electronics and Microelectronics, {MIPRO} 2015, Opatija, Croatia, May 25-29, 2015 (pp. 172–177). IEEE. http://doi.org/10.1109/MIPRO.2015.7160259
 
 Kloss-Brandstätter, A., Weissensteiner, H., Erhart, G., Schäfer, G., Forer, L., **Schönherr, S.**, … Kloss, F. R. (2015). *[Validation of Next-Generation Sequencing of Entire Mitochondrial Genomes and the Diversity of Mitochondrial DNA Mutations in Oral Squamous Cell Carcinoma](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0135643)*. Plos One, 10, e0135643. http://doi.org/10.1371/journal.pone.0135643
 
