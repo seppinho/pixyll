@@ -13,6 +13,6 @@ Check out my [projects](http://seppinho.github.io/projects) and [publications](h
 
 I'll try to [blog](http://seppinho.github.io/) on an regular basis.
 
-## Computational genetic lab members
+## Lab members
 - [Lukas Forer](http://www.forer.it)
 - [Hansi Weißensteiner](http://haplogrep.uibk.ac.at/blog)

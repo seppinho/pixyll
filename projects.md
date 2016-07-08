@@ -10,7 +10,7 @@ These are the main projects I'm currently working on:
 
 - [Michigan Imputation Server](https://imputationserver.sph.umich.edu/) - Imputation Service based on [minimac3](http://genome.sph.umich.edu/wiki/Minimac3) and Cloudgene. A cooperation with the [Center of Statistical Genetics](http://csg.sph.umich.edu/abecasis/), University of Michigan.
 
-- [Haplogrep](http://haplogrep.uibk.ac.at) - mtDNA haplogroup classification using Phylotree. A cooperation with the [Databases and Information Systems Group](https://dbis-informatik.uibk.ac.at/) at the University of Innsbruck.
+- [HaploGrep2](http://haplogrep.uibk.ac.at) - mtDNA haplogroup classification using Phylotree. A cooperation with the [Databases and Information Systems Group](https://dbis-informatik.uibk.ac.at/) at the University of Innsbruck.
 
 - [mtDNA-Server](http://mtdna-server.uibk.ac.at) - A NGS heteroplasmy and contamination pipeline based on Cloudgene. Including a parallelized version of BWA MEM.
 
