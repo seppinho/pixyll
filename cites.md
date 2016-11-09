@@ -7,14 +7,19 @@ published: true
 
 **2016** 
 
+Loh PR, Danecek P, Palamara PF, Fuchsberger C, Reshef YA, Finucane HK, **Schoenherr S**, Forer L, McCarthy S, Abecasis GR, Durbin R, Proce AL (2016). *[Reference-based phasing using the Haplotype Reference Consortium panel](http://www.nature.com/ng/journal/v48/n11/full/ng.3679.html)*. Nature Genetics, 10.1038/ng.3679.
+
+Das S, Forer L, **Schönherr S**, Sidore C, Locke AE, Kwong A, Vrieze SI, Chew EY, Levy S, McGue M, Schlessinger S, Stambolian D, Loh PR, Iacono WG, Swaroop A, Scott LJ, Cucca F, Kronenberg F, Boehnke M, Abecasis G Fuchsberger C (2016). *[Next generation genotype imputation service and methods](http://www.nature.com/ng/journal/v48/n10/full/ng.3656.html)*. Nature Genetics. DOI: 10.1038/ng.3656
+
+McCarthy S, Das S, Kretzschmar W, Delaneau O, Wood AR, Teumer A, Kang HM, Fuchsberger C, Danecek P, Sharp K, Luo Y, Sidore C, Kwong A, Timpson N, Koskinen S, Vrieze S, Scott LJ, Zhang H, Mahajan A, Veldink J, Peters U, Pato C, van Duijn CM, Gillies CE, Gandin I, Mezzavilla M, Gilly A, Cocca M, Traglia M, Angius A, Barrett JC, Boomsma D, Branham K, Breen G, Brummett CM, Busonero F, Campbell H, Chan A, Chen S, Chew E, Collins FS, Corbin LJ, Smith GD, Dedoussis G, Dorr M, Farmaki AE, Ferrucci L, Forer L, Fraser RM, Gabriel S, Levy S, Groop L, Harrison T, Hattersley A, Holmen OL, Hveem K, Kretzler M, Lee JC, McGue M, Meitinger T, Melzer D, Min JL, Mohlke KL, Vincent JB, Nauck M, Nickerson D, Palotie A, Pato M, Pirastu N, McInnis M, Richards JB, Sala C, Salomaa V, Schlessinger D, **Schoenherr S**, Slagboom PE, Small K, Spector T, Stambolian D, Tuke M, Tuomilehto J, Van den Berg LH, Van Rheenen W, Volker U, Wijmenga C, Toniolo D, Zeggini E, Gasparini P, Sampson MG, Wilson JF, Frayling T, de Bakker PI, Swertz MA, McCarroll S, Kooperberg C, Dekker A, Altshuler D, Willer C, Iacono W, Ripatti S, Soranzo N, Walter K, Swaroop A, Cucca F, Anderson CA, Myers RM, Boehnke M, McCarthy MI, Durbin R, Abecasis G, Marchini J (2016). *[A reference panel of 64,976 haplotypes for genotype imputation](http://www.nature.com/ng/journal/v48/n10/full/ng.3643.html)*. Nature Genetics. DOI: 10.1038/ng.3643
+
 Weissensteiner, H., Forer, L., Fuchsberger, C., Schöpf, B., Kloss-Brandstätter, A., Specht, G., … **Schönherr, S.** (2016). *[mtDNA-Server: next-generation sequencing data analysis of human mitochondrial DNA in the cloud](http://nar.oxfordjournals.org/content/early/2016/04/15/nar.gkw247.long)*. Nucleic Acids Research, gkw247.
 
 Weissensteiner, H., Pacher, D., Kloss-Brandstätter, A., Forer, L., Specht, G., Bandelt, H.-J., … **Schönherr, S.** (2016). *[HaploGrep 2: mitochondrial haplogroup classification in the era of high-throughput sequencing](http://nar.oxfordjournals.org/content/early/2016/04/15/nar.gkw233.long)*. Nucleic Acids Research, gkw233.
 
-Loh, P.-R., Danecek, P., Palamara, P. F., Fuchsberger, C., Reshef, Y. A., **Schoenherr S.**, Finucane, H. K., … others. (2016). *[Reference-based phasing using the Haplotype Reference Consortium panel](http://biorxiv.org/content/early/2016/05/10/052308)*. bioRxiv, 52308.
-
 Forer, L., Afgan, E., Weissensteiner, H., Davidovic, D., Specht, G., Kronenberg, F., & **Schoenherr, S.** (2016). *[Cloudflow - enabling faster biomedical pipelines with MapReduce and Spark](http://www.scpe.org/index.php/scpe/article/view/1159/472)* Scalable Computing: Practice and Experience, 17(2), 103–114.
 
+### Collaborator
 Sekula, P., Li, Y., Stanescu, H. C., Wuttke, M., Ekici, A. B., Bockenhauer, D., … others. (2016). *[Genetic risk variants for membranous nephropathy: extension of and association with other chronic kidney disease aetiologies](http://ndt.oxfordjournals.org/content/early/2016/02/04/ndt.gfw001.long)*. Nephrology Dialysis Transplantation, gfw001.
 
 
@@ -30,6 +35,7 @@ Raschenberger, J., Kollerits, B., Titze, S., Köttgen, A., Bärthlein, B., Ekici
 
 Spjuth, O., Bongcam-Rudloff, E., Hernández, G. C., Forer, L., Giovacchini, M., Guimera, R. V., **Schoenherr S.**, … others. (2015). *[Experiences with workflows for automating data-intensive bioinformatics](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4539931/)*. Biology Direct, 10(1), 1–12.
 
+### Collaborator
 Titze, S., Schmid, M., Köttgen, A., Busch, M., Floege, J., Wanner, C., … others. (2015). *[Disease burden and risk profile in referred patients with moderate chronic kidney disease: composition of the German Chronic Kidney Disease (GCKD) cohort](http://ndt.oxfordjournals.org/content/early/2014/09/30/ndt.gfu294.full)*. Nephrology Dialysis Transplantation, 30(3), 441–451.
 
 **2014**  
