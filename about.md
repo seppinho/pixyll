@@ -8,7 +8,7 @@ published: true
 My name is [Sebastian Schoenherr](http://seppinho.github.io/images/seb.jpg) and I'm a researcher at the [Division of Genetic Epidemiology](http://genepi.i-med.ac.at), Medical University of Innsbruck. 
 I'm part of a small **computational genetic lab**.
 
-The focus in our lab is on working with NGS data, methods development and creating SaaS approaches to achieve reproducible science in the area of Genetics. I'm a big fan of Hadoop and work with it since several years. 
+I'm a big fan of Hadoop and work with it since several years. 
 Check out my [projects](http://seppinho.github.io/projects) and [publications](http://seppinho.github.io/cites).
 
 I'll try to [blog](http://seppinho.github.io/) on an regular basis.
