@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Sebastian Schoenherr
+title: About Me
 permalink: /about/
 published: true
 ---
