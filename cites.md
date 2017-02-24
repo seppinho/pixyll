@@ -5,6 +5,11 @@ permalink: /cites/
 published: true
 ---
 
+
+## 2017
+Taliun D, Chothani S, **Schönherr S**, Forer L, Boehnke M, Abecasis GR, Wang C (2017). *[LASER server: ancestry tracing with genotypes or sequence reads](https://doi.org/10.1093/bioinformatics/btx075)*. **Bioinformatics**, DOI: 10.1093/bioinformatics/btx075.
+
+
 **2016** 
 
 Loh PR, Danecek P, Palamara PF, Fuchsberger C, Reshef YA, Finucane HK, **Schoenherr S**, Forer L, McCarthy S, Abecasis GR, Durbin R, Proce AL (2016). *[Reference-based phasing using the Haplotype Reference Consortium panel](http://www.nature.com/ng/journal/v48/n11/full/ng.3679.html)*. Nature Genetics, 10.1038/ng.3679.
