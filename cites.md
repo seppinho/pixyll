@@ -7,6 +7,9 @@ published: true
 
 
 ## 2017
+
+Coassin S, Erhart G, Weissensteiner H, Eca Guimarães de Araújo M, Lamina C, **Schönherr S**, Forer L, Haun M, Losso JL, Köttgen A, Schmidt K, Utermann G, Peters A, Gieger C, Strauch K, Finkenstedt A, Bale R, Zoller H, Paulweber B, Eckardt KU, Hüttenhofer A, Huber LA, Kronenberg F (2017). *[A novel but frequent variant in LPA KIV-2 is associated with a pronounced Lp(a) and cardiovascular risk reduction](https://doi.org/10.1093/eurheartj/ehx174)*. *Eur Heart J.*, DOI: 10.1093/eurheartj/ehx174.
+
 Taliun D, Chothani S, **Schönherr S**, Forer L, Boehnke M, Abecasis GR, Wang C (2017). *[LASER server: ancestry tracing with genotypes or sequence reads](https://doi.org/10.1093/bioinformatics/btx075)*. **Bioinformatics**, DOI: 10.1093/bioinformatics/btx075.
 
 
