@@ -1,8 +1,7 @@
-
 ---
 layout:     post
-title:      HaploGrep
-date:       2018-06-15 
+title:      Haplogrep on GitHub
+date:       2018-06-21 
 categories: mtdna
 ---
 
